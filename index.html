@@ -1,28 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BENILDO</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Press+Start+2P&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6d44488eff.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
-        <nav class = "menu">
+        <nav class="menu">
             <ul>
-    
+
                 <li><a href="#">Sobre</a></li>
-                <li><a href="#">Portfólio</a></li>
-                <li><a href="#">Contato</a></li>
-    
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+
             </ul>
         </nav>
-    
-        <h1 class="site-title">Paulo Silveira</h1>
-        <h2 class="site-subtitle">Jr. FrontEnd developer</h2>
-    
-     
-    </header>
-    
-</body>
-</html>
+        <div class= "titulo">
+            <h1 class="site-title">Benildo Domingos</h1>
+            <h2 class="site-subtitle">Jr. Developer</h2>
+        </div>  
 
+    </header>
+
+    <section class="sobre">
+
+        <h2>Sobre</h2>
+        <figure class="avatar">
+            <img src ="https://scontent.fcpq14-1.fna.fbcdn.net/v/t31.0-8/s960x960/29871601_1548344971931384_7717598405091357169_o.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeH4bDzW-7e_5G6TnS8gMMV-MLyCREhFqSQwvIJESEWpJGGo8nhgXK5Pb5r0-gGfwA-eSbsRZYt1w8WwZEJI63Ep&_nc_ohc=5X8AqQeR0ksAX_4qZYo&_nc_ht=scontent.fcpq14-1.fna&_nc_tp=7&oh=75047ac8a7ff232704cb8e17df2390a3&oe=5EE9E71E" alt="formatura">
+        </figure>
+
+        <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe dolorum id accusamus iste sed non dolores consequuntur tempore, expedita, molestiae doloribus exercitationem veritatis nobis ipsum eaque reprehenderit ipsa nulla recusandae?
+        </p>
+        <p>
+        Quas, quae. Officiis quibusdam placeat magnam corrupti nesciunt, vitae ipsam odit sit ea fuga voluptates quod. Est voluptate magnam, cupiditate voluptatum asperiores, quidem, nobis itaque vel suscipit ipsam labore similique.
+        </p>
+        <p>
+        Ut dolores deserunt nulla assumenda in est unde vel, quae fugiat asperiores doloribus obcaecati, illo fuga vero eius, iste natus adipisci cupiditate ex nostrum fugit nobis. Est eius dolores exercitationem!
+        </p> 
+        <p>   
+        Dolore quo nulla vitae eveniet, a quod aut nobis ipsum ducimus libero quam magnam ratione sit provident placeat iste quisquam explicabo quaerat aliquid repellendus neque. Hic iusto maxime illo incidunt.
+        </p>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2>Projetos</h2>
+
+        <div class="grid">
+            
+            <figure>
+                <img class="img-portfolio" src="./img/eCommerce.jpg" alt="eCommerce">
+                <figcaption>eCommerce</figcaption>
+            </figure>
+            <figure>
+                <img class="img-portfolio" src="./img/Mobile.jpg" alt=">Mobile">
+                <figcaption>Mobile</figcaption>
+            </figure>
+            <figure>
+                <img class="img-portfolio" src="./img/Design.jpg" alt="Web design">
+                <figcaption>Web design</figcaption>
+            </figure>
+            <figure>
+                <img class="img-portfolio" src="./img/projeto.jpg"
+                    alt="Projetos pessoais">
+                <figcaption>Projetos pessoais</figcaption>
+            </figure>
+
+        </div>
+    </section>
+        
+    <section  class="contato" id="contato">
+
+        <h2>Contato</h2>
+        
+        <div class="grid icons">
+            <a target="_blank" href="https://github.com/befernandes">
+            <i class="fab fa-github"></i>
+            </a>
+            <a target="_blank" href="https://www.instagram.com/benildowayne/?hl=pt-br">
+            <i class="fab fa-instagram"></i>
+            </a>
+            <a target="_blank" href="https://www.facebook.com/benildoemerson">
+            <i class="fab fa-facebook"></i>
+            </a>
+        </div>
+    </section>
+</body>
+
+</html>
